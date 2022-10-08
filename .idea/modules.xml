@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../FamilyApp/FamilyApp.iml" filepath="$PROJECT_DIR$/../FamilyApp/FamilyApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Inteca2/FamilyMemberApp.iml" filepath="$PROJECT_DIR$/../Inteca2/FamilyMemberApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../FamilyMemberApp/Inteca2.iml" filepath="$PROJECT_DIR$/../FamilyMemberApp/Inteca2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/docker-compose.iml" filepath="$PROJECT_DIR$/docker-compose.iml" />
+    </modules>
+  </component>
+</project>
