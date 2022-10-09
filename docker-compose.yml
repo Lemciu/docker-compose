@@ -1,0 +1,19 @@
+version: "3.3"
+services:
+  familyApp:
+    build: familyApp/
+    image: "family-app:latest"
+    container_name: family-app
+    ports:
+      - "8054:8054"
+    environment:
+      - "SPRING_PROFILES_ACTIVE=prod"
+
+  familyMemberApp:
+    build: familyMemberApp/
+    image: "family-member-app:latest"
+    container_name: family-member-app
+    ports:
+      - "8080:8080"
+    environment:
+      - "SPRING_PROFILES_ACTIVE=prod"
